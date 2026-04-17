@@ -191,6 +191,9 @@ export default function ProcessFlowSection() {
               </div>
             </div>
           </div>
+          <div className="flex justify-center items-center">
+            <img src="http://localhost:8000/super_2.jpeg" className="p-10 w-[69%] rounded-[69px]" />
+          </div>
         </motion.div>
 
         {/* Timeline + Metrics */}

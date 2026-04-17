@@ -140,14 +140,15 @@ export default function UltrasonicWorkingSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center mb-8 sm:mb-12">
           {/* Visualization */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="glass rounded-2xl sm:rounded-3xl p-5 sm:p-8 glow-border"
           >
             <UltrasonicVisualization />
-          </motion.div>
+          </motion.div> */}
+          <img src="http://localhost:8000/OIP.webp" width="100%" className='rounded-lg' alt="avinash bsdk" />
 
           {/* Explanation */}
           <motion.div
